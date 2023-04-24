@@ -1,0 +1,146 @@
+/*This is a comment */
+
+* {
+    background-color: lightblue;
+  }
+
+  a[target="google"]{
+    background-color: bisque;
+    color: red;
+  }
+  
+  h1,h4 {
+    color: navy;
+    background-color: black;
+   margin-right: 3in;
+   text-align: center;
+   text-decoration: dashed;
+  }
+
+  button:focus-visible{
+    outline: red 5px;
+  }
+
+  h3{
+    color: blue;
+    background-color:aliceblue ;
+    margin:60px; ;
+    text-align:right ;
+    text-decoration:wavy;
+    display: block;
+  }
+
+  p{
+    background-color: black;
+    color: red;
+  }
+
+  h5 {
+    color: #202;
+    background-color: brown;
+    text-align:right 50ct ;
+    text-decoration: line-through;
+    display: inline; 
+
+  }
+
+  body{
+    
+    color:hsl(1,2,3);
+
+    background-color: aquamarine;
+    margin-left: 5em;
+    color: rgb(10,50,70);
+
+    font-family: 'Bruno Ace', cursive;
+  }
+  
+  img{
+    border: 5px darkorange
+    width = "500"
+     height ="600"
+  }
+
+  .box {
+    border: 5px solid darkblue;
+    height: 150px;
+    width: 200px;
+  }
+
+  div{
+    width: 500px;
+    height: 300px ;
+    border: 5px blue ;
+    margin: 0 ; 
+  }
+
+  div p {
+    color: purple
+  }
+
+  a:hover {
+    background-color: red ;
+  }
+  h1:active {
+    background-color: yellow ;
+  }
+
+
+  .intro {
+    background-color: red;
+    color: blue;
+  }
+
+  .bk{
+    text-decoration: line-through;
+  }
+
+  #bio{
+    background-color: blue;
+    color: red;
+  }
+
+  div > p {
+    background-color: teal;
+    color: moccasin;
+  }
+
+  h1 + p {
+    background-color: yellow;
+  }
+
+  h3 + p {
+    color: red
+  }
+
+  h4 + h5, p {
+    color: beige;
+    background-color: blueviolet;
+  }
+
+  .flx_container {
+    display: flex; 
+    text-align: right; 
+  align-items: center;
+  }
+
+  .grid_container{
+      display: grid;
+      font-display:white;
+      background-color: orange;
+      display: flex; 
+    text-align: right; 
+  }
+
+  @media (max-width: 800px) {
+    smaller{
+      font-size: 15px;
+      background-color: black;
+    }
+  }
+
+  .p1 {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  
