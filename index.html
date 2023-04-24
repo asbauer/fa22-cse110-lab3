@@ -1,22 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
   <meta charset="UTF-8">
-
+<link rel ="stylesheet" href =  "style.css">
   <meta name="author" content="adam">
   <meta name="description" content="meeting minutes page for 4/16/22 meeting" >
 <link rel="icon" type="image/x-icon" sizes = "32x32" href = "/Users/abauer/Desktop/Lab2_starter" >
-
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+</style>
     <title>Meeting minutes</title>
 
   <body>  
     <header>
         <section>
-    <h1>First meeting of Team 13</h1>
-    <h3>4/16/23</h3>
+          <div class="intro">
+            <p class="first">My name is Adam</p>
+            <p id="bio">I'm from San Diego</p>
+            <p class="p1">This is a line for descendant combinator</p>
+          </div>
+          <div class="grid_container">
+            <div>D1</div>
+            <div>D2</div>
+          </div>
+          
+          <div>
+            <h1>
+              Header inside a div
+            </h1>
+            <p>Stuff inside p</p>
+          </div>
+
+          <div class="flx_container">
+            <div>First </div>
+            <div>Second </div>
+            <div>Third</div>
+          </div>
+          
+
+          <div class="bk">
+            <p id="bio">There is a line through this text</p>
+          </div>
+          
+    <h1 style="color:red ; text-align:center;">First meeting of Team 13</h1>
+    <h3>4/16/23</h3> Text after the margin
     <h5>Brainstorming project ideas.</h5>
            <nav> 
 <a href = "Yogi.png"> Our team dog</a>
-<a href="https://www.google.com">Google</a>
+<a href="https://www.google.com" target="google">Google</a>
 
        </nav>  
 </section>
@@ -41,7 +71,7 @@
        Feel free to share any misc comments or questions now. 
 
        <h3>A picture of a dog</h3>
-       <img src="Yogi.png" alt="Our team dog" width="500" height="600"> 
+       <img src="Yogi.png" alt="Our team dog"> 
     </main>
     <section> 
       <h3>Section</h3>
@@ -93,8 +123,28 @@
 </select>
 <button type="button">Click the button</button>
 
+<style>
+div.relative {
+  position: relative;
+  left: 30px;
+  border: 3px solid #73AD21;
+}
+</style>
 
+<div class="relative">
+Div position relative
+</div>
 
+<style>
+  div.static {
+    position: static;
+    left: 30px;
+    border: 3px solid blue;
+  }
+  </style>
 </section>
+<div class="static">
+  This is a div static
+</div>
  </body>
 </html>
